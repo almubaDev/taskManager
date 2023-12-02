@@ -8,10 +8,6 @@ Task Manager es una aplicación de gestión de tareas construida con Django Fram
 - **Etiquetas de Prioridad:** Asigna etiquetas de prioridad a tus tareas (Alta, Media, Baja) para destacar la importancia.
 - **Etiquetas de Tipo:** Organiza tus tareas por categorías como Hogar, Trabajo, Deporte, Estudio, etc.
 
-## Capturas de Pantalla
-
-Inserta aquí algunas capturas de pantalla para mostrar la interfaz de usuario y las funcionalidades clave de tu aplicación.
-
 ## Instalación
 
 1. Clona el repositorio: `git clone https://github.com/tuusuario/task-manager.git`
