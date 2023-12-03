@@ -13,13 +13,20 @@ Task Manager es una aplicación de gestión de tareas construida con Django Fram
 1. Clona el repositorio: `git clone https://github.com/tuusuario/task-manager.git`
 2. Instala las dependencias: `pip install -r requirements.txt`
 3. Realiza las migraciones: `python manage.py migrate`
-4. Inicia el servidor: `python manage.py runserver`
+
+### Nota
+Si deseas cargar tus propias etiquetas, puedes modificar el archivo data.json antes de ejecutar `python manage.py loaddata .\data.json`, junto con ello modififica los template 'templates/task/partials/filterTag.html' haciendo coincidir el nombre de la etiqueta con el parámetros de la URL que es el pk de la etiqueta almacenada en la base de datos. Si deseas expandir la cantidad de prioridades y etiquetas tambien deberas modificar la vista 'task.views.task' para que coincida con tus necesidades.
+
+4. Carga etiquetas y etiquetas de prioridad: `python manage.py loaddata .\data.json`
+5. Inicia el servidor: `python manage.py runserver`
 
 ## Uso
 
 1. Ejecuta la aplicación Django: `python manage.py runserver`
 2. Abre tu navegador y ve a `http://localhost:8000`
 3. Explora las funciones de Task Manager y gestiona tus tareas.
+
+
 
 ## Contribución
 

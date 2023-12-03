@@ -1,0 +1,51 @@
+[   
+    {
+        "model": "task.Tag",
+        "pk": 1,
+        "fields": {
+            "type": "Hogar"
+        }
+    },
+    {
+        "model": "task.Tag",
+        "pk": 2,
+        "fields": {
+            "type": "Trabajo"
+        }
+    },
+    {
+        "model": "task.Tag",
+        "pk": 3,
+        "fields": {
+            "type": "Estudio"
+        }
+    },
+    {
+        "model": "task.Tag",
+        "pk": 4,
+        "fields": {
+            "type": "Deporte"
+        }
+    },
+    {
+        "model": "task.Priority",
+        "pk": 1,
+        "fields": {
+            "priority_type": "Baja"
+        }
+    },
+    {
+        "model": "task.Priority",
+        "pk": 2,
+        "fields": {
+            "priority_type": "Media"
+        }
+    },
+    {
+        "model": "task.Priority",
+        "pk": 3,
+        "fields": {
+            "priority_type": "Alta"
+        }
+    }
+]
